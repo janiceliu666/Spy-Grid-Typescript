@@ -1,13 +1,15 @@
 import { useState, useEffect } from "react";
+import { Agent } from "../components/types";
 
 const useFetchAgent = () => {
   const [loading, setLoading] = useState(true);
-  const [agent, setAgent] = useState(null);
+  const [agent, setAgent] = useState<Agent | null>(null);
   const [error, setError] = useState<string | null>(null); //useState(null)
 
-  //const err: unknown = getUnknownValue();
+  //const err: unknown = getUnknownValue();s
   const fetchAgent = async () => {
     try {
+      console.log("fetch");
       const response = await fetch("https://randomuser.me/api/");
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
