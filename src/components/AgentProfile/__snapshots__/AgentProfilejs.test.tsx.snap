@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AgentProfile /> matches snapshot 1`] = `
+<div>
+  <img
+    alt="Agent"
+    src="https://example.com/image.jpg"
+  />
+  <h2>
+    Agent007
+  </h2>
+  <p>
+    James
+     
+    Bond
+  </p>
+</div>
+`;

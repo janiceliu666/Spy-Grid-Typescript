@@ -10,6 +10,10 @@ export type Agent = {
     city: string;
     state: string;
     country: string;
+    timezone: {
+      offset: string;
+      description: string;
+    };
   };
   dob: {
     date: string;
