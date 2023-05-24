@@ -1,9 +1,9 @@
 // import { renderHook, act } from "@testing-library/react-hooks";
-import { renderHook, act } from "@testing-library/react-hooks";
-// const { renderHook, act } = require("@testing-library/react-hooks");
-// const fetchMock = require("jest-fetch-mock");
+//import { renderHook, act } from "@testing-library/react-hooks";
+const { renderHook, act } = require("@testing-library/react-hooks");
+const fetchMock = require("jest-fetch-mock");
 
-import fetchMock from "jest-fetch-mock";
+//import fetchMock from "jest-fetch-mock";
 import useFetchAgent from "./useFetchAgent";
 
 fetchMock.enableMocks();
