@@ -2,3 +2,36 @@
   font-family: sans-serif;
   text-align: center;
 }
+.agent-profile {
+  /* Add any custom styles here */
+}
+
+.loading-container {
+  /* Styles for the loading indicator container */
+}
+
+.error-container {
+  /* Styles for the error message container */
+}
+
+.agent-image img {
+  /* Styles for the agent image */
+}
+
+.agent-details {
+  /* Styles for the agent details section */
+}
+
+.codename {
+  /* Styles for the codename */
+}
+
+.agent-info {
+  /* Styles for the agent info section */
+}
+
+.next-button {
+  /* Styles for the next button */
+}
+
+/* Add more styles for other elements as needed */

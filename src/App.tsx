@@ -1,3 +1,5 @@
+import React from "react";
+
 import AgentProfile from "./components/AgentProfile";
 import "./styles.css";
 
